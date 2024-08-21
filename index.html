@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mariana</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    x: <input type="number" id="iptX"> <br><br>
+    y: <input type="number" id="iptY">  <br><br>
+
+    <button type="button" id="bttsomar" onclick="somar()">Somar</button>
+    <button type="button" id="bttlimpar"  onclick="limpar()" disabled>Limpar</button><br><br>
+
+    <span id="spnRes"></span> <br><br>
+
+    Largura: <input type="range" id="iptLargura" oninput="mudarLargura()"> 
+    Altura: <input type="range" id="iptAltura" oninput="mudarAltura()">
+
+   
+    <div id="bxRes"></div>
+</body>
+</html>
